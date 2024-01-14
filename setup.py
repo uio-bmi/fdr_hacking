@@ -13,15 +13,13 @@ test_requirements = ['pytest>=3', "hypothesis"]
 setup(
     author="Chakravarthi Kanduri, Maria Mamica",
     author_email='chakra.kanduri@gmail.com',
-    python_requires='>=3.6',
+    python_requires='>=3.8',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
     description="Snakemake research project for investigating impact of correlations in the dataset on results of "
